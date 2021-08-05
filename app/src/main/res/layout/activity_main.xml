@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <EditText
+
+        android:id="@+id/edtEmail"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:inputType="textEmailAddress"
+
+        android:text= "s1080310@pu.edu.tw"
+
+        android:gravity="center"/>
+    <EditText
+
+        android:id="@+id/edtPassword"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:inputType="textPassword"
+
+        android:text= "123456"
+
+        android:gravity="center"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:gravity="center_horizontal"
+
+        android:orientation="horizontal">
+
+
+        <Button
+
+            android:id="@+id/btnReg"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="註冊"
+            app:backgroundTint="#B48BC34A" />
+
+
+        <Button
+
+            android:id="@+id/btnLogIn"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="登入"
+            app:backgroundTint="#B48BC34A" />
+
+
+        <Button
+
+            android:id="@+id/btnLogOut"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="登出"
+            app:backgroundTint="#B48BC34A" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:gravity="center_horizontal"
+
+        android:orientation="horizontal">
+
+
+        <EditText
+
+            android:id="@+id/edtScore"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:inputType="number"
+
+            android:text="39" />
+
+
+        <Button
+
+            android:id="@+id/btnChange"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="修改成績"
+            app:backgroundTint="#B4CDDC39" />
+
+        <Button
+
+            android:id="@+id/btnHero"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="顯示前三名"
+            app:backgroundTint="#B4CDDC39" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
